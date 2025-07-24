@@ -162,11 +162,19 @@ body {
   align-items: flex-start;
   justify-content: center;
   padding-left: 2rem;
+  position: relative;
 }
 .plant_lover_text h2 {
   font-family: "Noto Serif";
   font-size: 3.5rem;
   line-height: normal;
+}
+.ticket {
+  position: absolute;
+  top: -95px;
+  left: -183px;
+  width: 226px;
+  height: 226px;
 }
 .custom-list {
   list-style-type: disc; /* bullet style */
