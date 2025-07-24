@@ -1,9 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
   background-color: #f7faff;
   color: #333;
 }
+.main_section {
+  width: 80%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.logo {
+}
+.logo img {
+}
+.nav_cart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  list-style: none;
+  /* text-decoration: none; */
+}
+.nav-links ul {
+}
+.nav-links ul li {
+}
+.nav-links ul li a {
+}
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 2rem;
+}
+.cart p {
+}
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 4rem;
+}
+.left_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.left_text h1 {
+  font-family: "Noto Serif";
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+.span {
+  color: #f97316; /* orange */
+  font-weight: bold;
+}
+.left_text p {
+}
+.right_img {
+  display: flex;
+}
+.right_img img {
+  width: 100%;
+  height: 100%;
+}
+.plant_main {
+}
+.top_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 6rem;
+}
+.top_text h2 {
+  font-family: "Noto Serif";
+  font-size: 3.5rem;
+}
+.top_text p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.plant_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.grid_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 270px;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+}
+.plant_grid h2 {
+  margin-top: 1rem;
+  font-weight: 100;
+}
+.plant_grid p {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-family: arial;
+  font-size: 1.4rem;
+}
+.buttion {
+  margin-bottom: 2rem;
+  color: #fff;
+  background-color: #e95a08;
+  padding: 0.8rem 4.3rem;
+  border: none;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+.buttion:hover {
+  background-color: #a84105;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.plant_lover {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 10rem;
+}
+.plant_lover_img {
+}
+.plant_lover_img img {
+  width: 100%;
+  height: 100%;
+}
+.plant_lover_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 2rem;
+}
+.plant_lover_text h2 {
+  font-family: "Noto Serif";
+  font-size: 3.5rem;
+  line-height: normal;
+}
+.custom-list {
+  list-style-type: disc; /* bullet style */
+  list-style-position: outside; /* keeps bullet outside text */
+  padding-left: 20px; /* space from left */
+  margin: 0;
+  color: #464545;
+  font-size: 1.22rem; /* font size for list items */
+}
+
+.custom-list li {
+  margin-bottom: 10px; /* spacing between items */
+  line-height: 1.5; /* for better readability */
+}
+.lds_main {
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
