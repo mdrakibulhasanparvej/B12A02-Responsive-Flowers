@@ -530,6 +530,9 @@ h1 {
   .big-deal img {
     max-height: 180px;
   }
+  .footer_1 {
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -611,6 +614,9 @@ h1 {
   .big-deal img {
     max-height: 180px;
   }
+  .footer_1 {
+    width: 100%;
+  }
 }
 @media (max-width: 430px) {
   .deals {
@@ -689,5 +695,8 @@ h1 {
   }
   .big-deal img {
     max-height: 180px;
+  }
+  .footer_1 {
+    width: 100%;
   }
 }
