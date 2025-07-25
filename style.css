@@ -183,6 +183,7 @@ body {
   left: -183px;
   width: 226px;
   height: 226px;
+  filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 24.4));
 }
 .custom-list {
   list-style-type: disc; /* bullet style */
