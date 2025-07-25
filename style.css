@@ -517,6 +517,12 @@ h1 {
   .img_gird {
     max-width: 250px;
   }
+  .footer_2 {
+    padding: 0;
+  }
+  .footer_3 {
+    padding: 0;
+  }
 }
 
 @media (max-width: 500px) {
@@ -589,6 +595,12 @@ h1 {
   .img_gird {
     max-width: 200px;
   }
+  .footer_2 {
+    padding: 0;
+  }
+  .footer_3 {
+    padding: 0;
+  }
 }
 @media (max-width: 430px) {
   .deals {
@@ -658,5 +670,11 @@ h1 {
   }
   .img_gird {
     max-width: 200px;
+  }
+  .footer_2 {
+    padding: 0;
+  }
+  .footer_3 {
+    padding: 0;
   }
 }
